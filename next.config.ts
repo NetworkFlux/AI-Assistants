@@ -14,7 +14,7 @@ export default withSentryConfig(nextConfig, {
 // https://www.npmjs.com/package/@sentry/webpack-plugin#options
 
 org: "networkflux",
-project: "javascript-nextjs",
+project: "ai-companions",
 
 // Only print logs for uploading source maps in CI
 silent: !process.env.CI,
@@ -39,4 +39,5 @@ disableLogger: true,
 // https://docs.sentry.io/product/crons/
 // https://vercel.com/docs/cron-jobs
 automaticVercelMonitors: true,
+
 });
